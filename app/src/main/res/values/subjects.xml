@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--All Branches 1st and 2nd semester-->
+    <string-array name="all1">
+        <item>Engineering mathematics 1</item>
+        <item>Engineering Mechanics</item>
+        <item>Electrical Science</item>
+        <item>Engineering Chemistry</item>
+        <item>Engineering Physics</item>
+        <item>Engineering Physics Lab</item>
+        <item>Engineering chemistry Lab</item>
+        <item>Programming with C</item>
+        <item>C Programming Lab</item>
+        <item>MES</item>
+        <item>Workshop Practice</item>
+        <item>Electrical Laboratory     </item>
+        <item>Engineering Mathematics II</item>
+        <item>SOM</item>
+        <item>Basic Electronics</item>
+        <item>Engineering Drawing</item>
+    </string-array>
+    <!-- COMPUTER SCIENCE -->
+    <string-array name="cs3">
+        <item>Engineering Mathematics III</item>
+        <item>Data Structures with C</item>
+        <item>Digital System Design</item>
+        <item>Discrete Mathematical Structure</item>
+        <item>Electronic Circuits</item>
+        <item>Object oriented programming with c++</item>
+        <item>DSD &amp; EC lab</item>
+        <item>Data Structures lab</item>
+    </string-array>
+    <string-array name="cs4">
+        <item>Engineering mathematics IV</item>
+        <item>Microprocessors</item>
+        <item>Computer Organization And Architecture</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Finite Automate And Formal Languages</item>
+        <item>Java and Internet Programming</item>
+        <item>Microprocessor lab</item>
+        <item>Algorithms lab using c++</item>
+    </string-array>
+    <string-array name="cs5">
+        <item>Database Management System</item>
+        <item>Operating Systems</item>
+        <item>Computer Networks I</item>
+        <item>Software Engineering and Testing</item>
+        <item>Computer Graphics</item>
+        <item>Operation Research</item>
+        <item>Computer Graphics lab</item>
+        <item>Java programming lab</item>
+    </string-array>
+    <string-array name="cs6">
+        <item>Comp Networks II</item>
+        <item>Probability and Stochastic Process</item>
+        <item>System Software</item>
+        <item>Unix System Programming</item>
+        <item>Artificial Intelligence &amp; Machine Learning</item>
+        <item>Data Mining</item>
+        <item>Unix &amp; System Software Lab</item>
+        <item>DBMS Lab</item>
+    </string-array>
+    <string-array name="cs7">
+        <item>Advanced Computer architecture</item>
+        <item>Soft computing</item>
+        <item>Cryptography and network security</item>
+        <item>Simulation and modeling</item>
+        <item>Networking laboratory</item>
+        <item>IP lab</item>
+        <item>Project</item>
+    </string-array>
+    <string-array name="cs8">
+        <item>Compiler Design</item>
+        <item>Distributed Operating system</item>
+        <item>Mobile computing</item>
+        <item>Wireless Sensor Networks</item>
+        <item>C# laboratory</item>
+        <item>Project</item>
+    </string-array>
+
+    <!--Information Science-->
+    <string-array name="is3">
+        <item>Engineering Mathematics III</item>
+        <item>Data Structures with C</item>
+        <item>Digital System Design</item>
+        <item>Discrete Mathematical Structure</item>
+        <item>Electronic Circuits</item>
+        <item>Electronic Circuits</item>
+        <item>DSD &amp; EC lab</item>
+        <item>Data Structures lab</item>
+    </string-array>
+    <string-array name="is4">
+        <item>Engineering mathematics IV</item>
+        <item>Microprocessors</item>
+        <item>Computer Organization And Architecture</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Finite Automata And Formal Languages</item>
+        <item>Java and Internet Programming</item>
+        <item>Microprocessor lab</item>
+        <item>Algorithms lab using c++</item>
+    </string-array>
+    <string-array name="is5">
+        <item>Database Management System</item>
+        <item>Operating Systems</item>
+        <item>Computer Networks I</item>
+        <item>Software Engineering and Testing</item>
+        <item>Computer Graphics</item>
+        <item>Operation Research</item>
+        <item>Computer Graphics lab</item>
+        <item>Java programming lab</item>
+    </string-array>
+    <string-array name="is6">
+        <item>Computer Networks II</item>
+        <item>Probability and stochastic process</item>
+        <item>System Software</item>
+        <item>Unix system programming</item>
+        <item>Data compression techniques</item>
+        <item>Data Mining</item>
+        <item>Unix and System software lab</item>
+        <item>DBMS lab</item>
+    </string-array>
+    <string-array name="is7">
+        <item>Simulation and modelling</item>
+        <item>Soft computing</item>
+        <item>Cryptography and network security</item>
+        <item>Advanced Computer Architecture</item>
+        <item>Networking laboratory</item>
+        <item>IP lab</item>
+        <item>Project</item>
+    </string-array>
+    <string-array name="is8">
+        <item>Compiler Design</item>
+        <item>Distributed Operating system</item>
+        <item>Digital Image Processing</item>
+        <item>Wireless Sensor Networks</item>
+        <item>C# laboratory</item>
+        <item>Project</item>
+    </string-array>
+
+    <!--ECE-->
+    <string-array name="ec3">
+        <item>Engineering Mathmetics III</item>
+        <item>Electric Circuits and Analysis</item>
+        <item>Analog Electronic Circuits</item>
+        <item>Digital Fundamentals</item>
+        <item>Signals and Systems</item>
+        <item>Fields and Waves</item>
+        <item>Electrical and Electronics Laboratory</item>
+        <item>Analog Electronics Laboratory</item>
+    </string-array>
+    <string-array name="ec4">
+        <item>Engineering Mathmetics IV</item>
+        <item>Electronic Components and CMOS Technology</item>
+        <item>Digital Circuit Design</item>
+        <item>Analog IC System Design</item>
+        <item>Network and Lines</item>
+        <item>Industrial Electronics</item>
+        <item>Analog IC and Industrial Electronics Laboratory</item>
+        <item>Digital System Design Laboratory</item>
+    </string-array>
+    <string-array name="ec5">
+        <item>Probability and Stochastic Processes</item>
+        <item>Control Engineering</item>
+        <item>Digital System Design using HDLs</item>
+        <item>Microprocessors</item>
+        <item>Digital Signal Processing</item>
+        <item>Analog Communication</item>
+        <item>Microprocessor Laboratory(Using 8085 Systems)</item>
+        <item>Circuit Simulation Laboratory</item>
+    </string-array>
+    <string-array name="ec6">
+        <item>Digital Communication Theory</item>
+        <item>Microcontrollers</item>
+        <item>Microwave and Radar</item>
+        <item>Information Theory and Coding</item>
+        <item>VLSI Design</item>
+        <item>Computer Organization and Architecture</item>
+        <item>Analog Communication and Microwave Laboratory</item>
+        <item>Circuit Simulation Laboratory</item>
+    </string-array>
+    <string-array name="ec7">
+        <item>SATCOM</item>
+        <item>CCN</item>
+        <item>Multimedia Systems</item>
+        <item>Wireless Communication</item>
+        <item>Digital Communication Laboratory</item>
+        <item>Simulation and HDL Laboratory</item>
+    </string-array>
+    <string-array name="ec8">
+        <item>Embedded System</item>
+        <item>Optical Communication</item>
+        <item>Operation Research and Engineering Management</item>
+        <item>Advanced Computer Communication Networks</item>
+        <item>Embedded System Laboratory</item>
+    </string-array>
+
+    <!--Electrical and Electronics Engg-->
+    <string-array name="ee3">
+        <item>Engineering Mathmetics III</item>
+        <item>Analog Electronic Circuits</item>
+        <item>DC Machines and Transformers</item>
+        <item>Electric Circuits</item>
+        <item>Electrical and Electronics Measurements</item>
+        <item>Object Oriented Programming using C++</item>
+        <item>Analog Electronic Circuits Laboratory</item>
+        <item>Measurements Laboratory</item>
+    </string-array>
+    <string-array name="ee4">
+        <item>Engineering Mathematics IV</item>
+        <item>Data Structures</item>
+        <item>Micro Electronics</item>
+        <item>Signals and Systems</item>
+        <item>AC Machines</item>
+        <item>Electromagnetic Field Theory</item>
+        <item>Electrical Machines Laboratory</item>
+        <item>IC Laboratory</item>
+    </string-array>
+    <string-array name="ee5">
+        <item>Control Systems Engineering</item>
+        <item>Electrical Machine Design</item>
+        <item>Generation Transmission and Distribution</item>
+        <item>Power Electronics</item>
+        <item>Digital Signal Processing</item>
+        <item>Computer Organization and Design</item>
+        <item>Power Electronics and Drives Laboratory</item>
+        <item>Simulation Laboratory using LabView</item>
+    </string-array>
+    <string-array name="ee6">
+        <item>Microprocessor and Microcontroller (8086/8051)</item>
+        <item>Power System Analysis</item>
+        <item>Electric Drives</item>
+        <item>Switch Gear and Protection</item>
+        <item>Communication Engineering</item>
+        <item>Modern Control Theory</item>
+        <item>AC Machines and Protection Laboratory</item>
+        <item>Microprocessor and Microcontroller Lab(8086/8051)</item>
+    </string-array>
+    <string-array name="ee7">
+        <item>High Voltage Engineering</item>
+        <item>Estimation,Specification and Engineering Management</item>
+        <item>Non Conventional Energy Sources</item>
+        <item>Computer Techniques in Power System Analysis</item>
+        <item>Testing and Commissioning of Electrical Equipment</item>
+        <item>Elective-I</item>
+        <item>Control Systems and DSP Laboratory</item>
+    </string-array>
+    <string-array name="ee8">
+        <item>HVDC and Facts</item>
+        <item>Utilization of Electric Power</item>
+        <item>Illumination Engineering</item>
+        <item>Elective II</item>
+        <item>Power Systems Simulation Laboratory(Using matlab)</item>
+    </string-array>
+
+    <!--Mechanical Engg-->
+    <string-array name="me3">
+        <item>Engineering Mathmetics III</item>
+        <item>Material Science and metallurgy</item>
+        <item>Kinematics of machines</item>
+        <item>Fluid Mechanics</item>
+        <item>Machine Drawing</item>
+        <item>Material Testing Laboratory</item>
+        <item>Workshop Practice</item>
+        <item>Basic Thermodynamics</item>
+    </string-array>
+    <string-array name="me4">
+        <item>Engineering mathematics IV</item>
+        <item>Manufacturing Processes I</item>
+        <item>Dynamics of machines</item>
+        <item>Turbo Machinary</item>
+        <item>Applied thermodynamics</item>
+        <item>Fluid mechanics and machines lab</item>
+        <item>Machine shop 1 lab</item>
+        <item>CAD lab 1</item>
+    </string-array>
+    <string-array name="me5">
+        <item>Control Engineering</item>
+        <item>Machine design I</item>
+        <item>Manufacturing process II</item>
+        <item>Mechanical Measurements</item>
+        <item>Industrial Management</item>
+        <item>Machine Shop II</item>
+        <item>Measurement and Metrology management</item>
+        <item>Energy Lab</item>
+    </string-array>
+    <string-array name="me6">
+        <item>Object oriented programming</item>
+        <item>Machine Design II</item>
+        <item>Manufacturing technology III</item>
+        <item>Heat and mass transfer</item>
+        <item>Advanced material technology</item>
+        <item>CDA lab II</item>
+        <item>Design lab I</item>
+        <item>Manufacturing lab</item>
+    </string-array>
+    <string-array name="me7">
+        <item>Automation in Manufacturing</item>
+        <item>Operation research</item>
+        <item>Theory of elasticity</item>
+        <item>Theory of IC engines</item>
+        <item>Electives</item>
+        <item>Simulation laboratory</item>
+        <item>Design laboratory II</item>
+        <item>Heat transfer lab</item>
+    </string-array>
+    <string-array name="me8">
+        <item>CAD and Robotics</item>
+        <item>Finite element analysis</item>
+        <item>Energy resources and powerplants</item>
+        <item>Total quality management</item>
+        <item>Elective</item>
+        <item>CAD and robotics laboratory</item>
+        <item>Project work</item>
+        <item>Seminar</item>
+        <item>Project tour</item>
+    </string-array>
+
+    <!--Civil Engg-->
+    <string-array name="ce3">
+        <item>Engineering Mathmetics III</item>
+        <item>Theory of structures</item>
+        <item>Surveying Theory I</item>
+        <item>Building Materials and construction</item>
+        <item>Fluid mechanics and hydraulic machinery</item>
+        <item>Engineering geology</item>
+        <item>SOM lab</item>
+        <item>Surveying practice I</item>
+        <item>Kannada</item>
+    </string-array>
+    <string-array name="ce4">
+        <item>Theory of structures II</item>
+        <item>Concrete technology</item>
+        <item>Design of RC Structures</item>
+        <item>Surveying Theory II</item>
+        <item>Basics of soil mechanics</item>
+        <item>Building drawing</item>
+        <item>Surveying practice II</item>
+        <item>Fluid mechanics Lab</item>
+        <item>Geology Lab</item>
+        <item>Environmental Science</item>
+    </string-array>
+    <string-array name="ce5">
+        <item>Design of steel structures</item>
+        <item>Hydrology and Irrigation Engineering</item>
+        <item>Environmental Engineering I</item>
+        <item>Transportation Engineering I</item>
+        <item>Advanced material construction and management</item>
+        <item>Earth and Earth retaining structures</item>
+        <item>Design and Drawing RCC</item>
+        <item>Concrete technology lab</item>
+        <item>Technical English</item>
+    </string-array>
+    <string-array name="ce6">
+        <item>Theory of Structures III</item>
+        <item>Hydraulic Structures</item>
+        <item>Transportation engineering II</item>
+        <item>Environmental Engineering II</item>
+        <item>Design and Drawing Steel Structures</item>
+        <item>Elective</item>
+        <item>Geo technical engineering laboratory</item>
+        <item>Highway materials laboratory</item>
+        <item>Engineering project tour</item>
+        <item>Constitution</item>
+    </string-array>
+    <string-array name="ce7">
+        <item>Remote sensing and IGS</item>
+        <item>Foundation Engineering</item>
+        <item>Bridge Engineering</item>
+        <item>Transportation Engineering III</item>
+        <item>Design and drawing Hydraukic structures</item>
+        <item>Elective</item>
+    </string-array>
+    <string-array name="ce8">
+        <item>Fundamentals of eartquake engineering</item>
+        <item>Estimation,Specification Costing and Economics</item>
+        <item>Pre Stressed Concrete</item>
+        <item>Design and drawing Bridges</item>
+        <item>Elective</item>
+        <item>Environmental engineering lab</item>
+    </string-array>
+</resources>

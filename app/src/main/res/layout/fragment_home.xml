@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projects.psps.uvcesyllabus.home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <Spinner
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/branch_spinner"
+           android:minHeight="20dp"
+           android:spinnerMode="dropdown"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginTop="15dp"
+           android:entries="@array/branch"
+           style="@style/Widget.AppCompat.PopupMenu"
+           android:background="@android:drawable/btn_dropdown"
+           android:dropDownWidth="match_parent"
+           android:dropDownSelector="?android:attr/textCheckMark" />
+       <Spinner
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/syllabus_spinner"
+           android:minHeight="20dp"
+           android:spinnerMode="dropdown"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginTop="15dp"
+           android:entries="@array/type_of_content"
+           style="@style/Widget.AppCompat.PopupMenu"
+           android:background="@android:drawable/btn_dropdown"
+           android:dropDownWidth="match_parent"
+           android:dropDownSelector="?android:attr/textCheckMark" />
+       <Spinner
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/sem_lab_spinner"
+           android:minHeight="20dp"
+           android:spinnerMode="dropdown"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginTop="15dp"
+           android:entries="@array/semester"
+           style="@style/Widget.AppCompat.PopupMenu"
+           android:background="@android:drawable/btn_dropdown"
+           android:dropDownWidth="match_parent"
+           android:dropDownSelector="?android:attr/textCheckMark" />
+       <Spinner
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/subjects_spinner"
+           android:minHeight="20dp"
+           android:spinnerMode="dropdown"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginTop="15dp"
+           android:entries="@array/cs6"
+           style="@style/Widget.AppCompat.PopupMenu"
+           android:background="@android:drawable/btn_dropdown"
+           android:dropDownWidth="match_parent"
+           android:dropDownSelector="?android:attr/textCheckMark" />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:minHeight="20dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginTop="150dp"
+           style="@style/Widget.AppCompat.PopupMenu"
+           android:text="@string/submit"
+           android:background="@android:drawable/btn_default"
+           android:id="@+id/submit" />
+
+   </LinearLayout>
+
+
+
+
+</FrameLayout>
