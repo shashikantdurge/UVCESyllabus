@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Spinner;
 
 import java.lang.reflect.Field;
 
@@ -30,6 +31,8 @@ public class home extends Fragment {
     private String mParam1;
     private String mParam2;
     String name;
+    public static Button submit;
+    public static Spinner branchSpn,semLabSpn,subjectSpn,syllabusSpn;
 
     private OnFragmentInteractionListener mListener;
 
@@ -61,6 +64,12 @@ public class home extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+            View view=getView();
+            branchSpn=(Spinner)view.findViewById(R.id.branch_spinner);
+            semLabSpn=(Spinner)view.findViewById(R.id.sem_lab_spinner);
+            subjectSpn=(Spinner)view.findViewById(R.id.subjects_spinner);
+            syllabusSpn=(Spinner)view.findViewById(R.id.syllabus_spinner);
+            submit=(Button)view.findViewById(R.id.submit);
         }
     }
 

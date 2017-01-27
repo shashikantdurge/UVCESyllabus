@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
      * {@link android.support.v4.app.FragmentStatePagerAdapter}.
      */
     private SectionsPagerAdapter mSectionsPagerAdapter;
-    public static Button submit;
-    public static Spinner branchSpn,semLabSpn,subjectSpn;
+
 
     /**
      * The {@link ViewPager} that will host the section contents.
@@ -57,10 +56,6 @@ public class MainActivity extends AppCompatActivity {
 
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
-        submit=(Button)findViewById(R.id.submit);
-        branchSpn=(Spinner)findViewById(R.id.branch_spinner);
-        semLabSpn=(Spinner)findViewById(R.id.sem_lab_spinner);
-        subjectSpn=(Spinner)findViewById(R.id.subjects_spinner);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
